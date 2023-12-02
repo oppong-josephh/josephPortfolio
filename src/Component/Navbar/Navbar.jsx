@@ -1,6 +1,5 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import './Navbar.css'
-// import {motion} from 'framer-motion'
 
 const NavigationBar = () => {
   return (

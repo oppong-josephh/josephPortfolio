@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Container fluid className="main-wrapper">
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-6 col-lg-5">
           <div className="h-wrapper">
             <div className="h-left">
               <div className="h-name">
@@ -20,7 +20,7 @@ const Home = () => {
                 <br />
                 <span>Oppong Ansah Joseph</span>
                 <br />
-                <span>
+                <span className="description">
                   A seasoned UI/UX and front-end developer known for
                   consistently delivering top-tier web design work characterized
                   by excellence and quality.
@@ -38,36 +38,24 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="col-md-7">
+        <div className="col-md-6 col-lg-7">
           <div className="h-wrapper">
             <div className="h-right">
               <div className="h-banner">
-                <img src={BannerImage} alt="bannerImage" />
+                <img src={BannerImage} alt="bannerImage" className="img-fluid" />
               </div>
               <div className="h-card">
-                <img className="card1" src={UICard} alt="Card1" />
-                <img className="card2" src={WebCard} alt="Card2" />
+                <img src={UICard} alt="Card1" className="card1 img-fluid" />
+                <img src={WebCard} alt="Card2" className="card2 img-fluid" />
               </div>
-              <div
-                className="blurImgBg"
-                style={{ background: "rgb(238 210 255)" }}
-              ></div>
-              <div
-                className="blurImgBg"
-                style={{
-                  background: "#C1F5FF",
-                  top: "10rem",
-                  width: "21rem",
-                  height: "11rem",
-                  left: "60rem",
-                }}
-              ></div>
+              <div className="blurImgBg"></div>
+              <div className="blurImgBg"></div>
             </div>
           </div>
         </div>
       </div>
     </Container>
-  )
+  );
 }
 
-export default Home
+export default Home;

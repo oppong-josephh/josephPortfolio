@@ -5,7 +5,7 @@ button, .n-button{
     font-size: 16px;
   }
   
-  .n-links{
+  .n-links >*{
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -23,5 +23,33 @@ button, .n-button{
   .nav-link:hover {
     color: var(--voilet) !important; 
   }
+
+
   
   
+  
+  /* ... (Your existing CSS) */
+
+@media (max-width: 991.98px) {
+  /* Adjustments for medium screens */
+  .n-links {
+    font-size: 1rem;
+  }
+
+  .n-logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* Adjustments for small screens */
+  .n-links {
+    font-size: 0.9rem;
+  }
+
+  .n-logo {
+    font-size: 1rem;
+  }
+}
+
+/* ... (Your existing CSS) */

@@ -17,7 +17,7 @@ const Footer = () => {
         />
 
         <div className="footer-content">
-            <span><a href="mailto:josephoppong253@gmail.com">josephoppong253@gmail.com</a></span>
+            <span><a href="mailto:josephoppong253@gmail.com" className='text-white text-decoration-none'>josephoppong253@gmail.com</a></span>
             <div className="footer-icons icon">
                 <img src={Github} alt="Github" />
                 <img src={LinkedIn} alt="LinkedIn" />
