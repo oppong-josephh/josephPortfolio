@@ -1,0 +1,14 @@
+.contact-wrapper{
+    margin-top: -5rem;
+    margin-bottom: 20vh;
+}
+
+form, input{
+    width: 50rem;
+    height: 3rem;
+}
+
+input, .form-control{
+    border: 1px solid var(--voilet);
+    resize: none;
+}

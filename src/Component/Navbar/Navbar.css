@@ -1,0 +1,27 @@
+button, .n-button{
+    border-radius: 34px;
+    border: none;
+    transition: 0.8s; 
+    font-size: 16px;
+  }
+  
+  .n-links{
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .n-logo{
+    font-family: "Agbalumo";
+    font-size: 1.5rem;
+  }
+
+  .n-logo span:nth-of-type(1){
+    font-family: "Agbalumo";
+    color: var(--voilet);
+  }
+
+  .nav-link:hover {
+    color: var(--voilet) !important; 
+  }
+  
+  

@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: -0.5rem -3.5;
+    margin-top: 7.5rem;
+}
+
+.footer-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10em;
+    gap: 4rem;
+    color: white;
+}
+
+.footer-content a span, a:nth-of-type(1) {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .footer-content span:nth-of-type(2) {
+    color: black;
+    font-size: 1.5rem;
+  }
+
+.footer-icons > *{
+    gap: 3rem;
+    transform: scale(0.5);
+    transition: transform 0.8s;
+}
+
+.footer-icons > *:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+

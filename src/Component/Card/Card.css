@@ -1,0 +1,33 @@
+.card{
+    width: 18rem;
+    /* height: 13rem; */
+    position: absolute;
+    gap: 1.5rem;
+    align-items: center;
+    background: rgb(255, 255, 255, 0.26);
+    border: 7px solid var(--voiletCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+
+.card span:nth-of-type(2){
+    color: var(--grey);
+    font-size: 18px;
+}
+
+.card > img{
+    transform: scale(0.9);
+    margin-bottom: -2rem;
+}
+
+.c-btn{
+    background: #fff;
+    color: var(--voilet);
+    font-size: 13px;
+    transition: 0.8s;
+}
+
+.c-btn:hover{
+    background: var(--voilet);
+    color: #fff;
+}
