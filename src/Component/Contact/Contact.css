@@ -12,3 +12,21 @@ input, .form-control{
     border: 1px solid var(--voilet);
     resize: none;
 }
+
+  
+  
+  @media screen and (max-width: 480px) {
+    .contact-wrapper {
+      margin-bottom: 50vh; 
+    }
+  
+    form, input, textarea {
+      max-width: 100%;
+    }
+  
+    button {
+      width: 100%; 
+      max-width: 400px; 
+    }
+  }
+  
