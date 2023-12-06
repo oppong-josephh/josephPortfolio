@@ -28,28 +28,20 @@ button, .n-button{
   
   
   
-  /* ... (Your existing CSS) */
 
-@media (max-width: 991.98px) {
-  /* Adjustments for medium screens */
+
+  @media screen and (max-width: 480px) {
   .n-links {
     font-size: 1rem;
   }
-
   .n-logo {
     font-size: 1.2rem;
   }
+
+  /* .Navbar{
+    display: none;
+  } */
 }
 
-@media (max-width: 767.98px) {
-  /* Adjustments for small screens */
-  .n-links {
-    font-size: 0.9rem;
-  }
 
-  .n-logo {
-    font-size: 1rem;
-  }
-}
 
-/* ... (Your existing CSS) */

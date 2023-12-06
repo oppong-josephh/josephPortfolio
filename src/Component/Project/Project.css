@@ -22,21 +22,21 @@
     align-items: center;
   }
   
-  /* Set a fixed size for all images within Swiper slides */
+  /* fixed size for all images within Swiper slides */
   .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  /* Optional: Adjust the width of the swiper slides if needed */
+  /* width of the swiper slides if needed */
   .swiper-slide {
-    width: 50%; /* Set the width to 100% to make all slides equal */
+    width: 50%; /* width to 100% to make all slides equal */
   }
 
   .swiper-pagination {
-    position: absolute;
-    bottom: 20px; 
+    position: static;
+    margin-bottom: 20px; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+    background: rgba(0, 0, 0, 0.5); /* overlay color and opacity */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,3 +84,21 @@
     position: relative;
   }
   
+
+@media screen and (max-width: 480px) {
+  .swiper-slide {
+    width: 100%; /* width to 100% for full width on small screens */
+  }
+
+  .swiper-pagination {
+    position: static; 
+    margin-top: 10px; /* top position to create space between slides and pagination */
+    display: block; /* block for stacking on smaller screens */
+  }
+
+  .overlay p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}

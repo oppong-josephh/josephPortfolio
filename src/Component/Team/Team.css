@@ -11,3 +11,12 @@
 .card span:nth-of-type(2) {
     color: var(--voilet);
   }
+
+  @media screen and (max-width: 480px) {
+    .card{
+      position: static;
+      margin-bottom: 4rem;
+      margin-left: 5%;
+      margin-left: 5%;
+    }
+  }

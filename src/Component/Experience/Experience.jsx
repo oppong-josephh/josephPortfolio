@@ -4,7 +4,7 @@ import "./Experience.css";
 const Experience = () => {
   return (
     <Container className="experience text-center">
-      <div className="row">
+      <div className="row ex">
         <div className="col-md-4">
           <div className="achievement">
             <div className="circle ">2</div>

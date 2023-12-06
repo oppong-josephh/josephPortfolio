@@ -35,3 +35,10 @@ button:hover{
   background-color: #fff;
   color: var(--voilet);
 }
+
+
+/* @media screen and (max-width: 480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
+} */

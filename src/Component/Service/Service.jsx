@@ -18,7 +18,7 @@ const Service = () => {
             <br />
             <span>
               I&apos;m responsible for designing and developing websites, 
-              using <br />a variety of web technologies.
+              using a variety of web technologies.
             </span>
             <br /> <br />
             {/* <a href={CV}></a> */}
@@ -42,7 +42,7 @@ const Service = () => {
             
             {/* glasses emoji */}
             <div
-              className="col-md-6 text-center cards"
+              className="col-md-6 text-center cards glassCard"
               style={{ top: "15rem", left: "-45rem" }}
             >
               <Card
@@ -71,8 +71,8 @@ const Service = () => {
             style={{ background: "rgb(238 210 255)" }}
           ></div>
           <div
-            className="blurImgBg"
-            style={{ background: "#C1F5FF", top: "60rem", left: "60rem" }}
+            className="blurImgBg s2-blurImgBg"
+            style={{ background: "#C1F5FF"}}
           ></div>
         </div>
       </div>
