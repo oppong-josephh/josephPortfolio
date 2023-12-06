@@ -8,7 +8,7 @@ import Oppong from '../../assets/oppong.png'
 const Team = () => {
   return (
     <Container  className="team-wrapper">
-      <div className="portfolio text-center mb-5">
+      <div className="pp portfolio text-center mb-5">
       <span>Teams</span>
         <br />
         <span>Who with me</span>
