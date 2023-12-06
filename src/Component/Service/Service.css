@@ -43,7 +43,9 @@
     top: 25rem;
     left: 30rem;
   }
-
+  body {
+    overflow-x: hidden;
+  }
 
 @media screen and (max-width: 480px) {
   .fantastic {
@@ -71,5 +73,8 @@
   .cards {
     margin-bottom: 25rem; 
     margin-left: -8.5%;
+  }
+  .body{
+    overflow-x: hidden;
   }
 }

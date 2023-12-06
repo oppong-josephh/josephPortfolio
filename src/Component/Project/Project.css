@@ -83,6 +83,9 @@
   .swiper-slide-content {
     position: relative;
   }
+  body {
+    overflow-x: hidden;
+  }
   
 
 @media screen and (max-width: 480px) {
@@ -100,5 +103,8 @@
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
+  }
+  .body{
+    overflow-x: hidden;
   }
 }

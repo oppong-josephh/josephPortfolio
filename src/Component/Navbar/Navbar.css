@@ -24,7 +24,9 @@ button, .n-button{
     color: var(--voilet) !important; 
   }
 
-
+  body {
+    overflow-x: hidden;
+  }
   
   
   
@@ -36,6 +38,9 @@ button, .n-button{
   }
   .n-logo {
     font-size: 1.2rem;
+  }
+  .body{
+    overflow-x: hidden;
   }
 
   /* .Navbar{

@@ -12,7 +12,9 @@ input, .form-control{
     border: 1px solid var(--voilet);
     resize: none;
 }
-
+body {
+  overflow-x: hidden;
+}
   
   
   @media screen and (max-width: 480px) {
@@ -36,6 +38,9 @@ input, .form-control{
     .c-btn:hover{
       background-color: #fff;
       color: var(--voilet);
+    }
+    .body{
+      overflow-x: hidden;
     }
   }
   

@@ -94,4 +94,7 @@ body {
       left: -3rem;
       transform: scale(0.5);
     }
+    .body{
+      overflow-x: hidden;
+    }
   }

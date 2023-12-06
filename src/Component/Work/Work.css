@@ -87,6 +87,9 @@
     left: 7rem;
     top: 7rem;
   }
+  body {
+    overflow-x: hidden;
+  }
 
 
   @media screen and (max-width: 480px) {
@@ -126,5 +129,8 @@
   .w-mainCircle > :nth-child(5) {
     margin-left: 20.5rem;
     top: 11.5rem;
+  }
+  .body{
+    overflow-x: hidden;
   }
   }
