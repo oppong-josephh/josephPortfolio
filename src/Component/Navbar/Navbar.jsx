@@ -7,7 +7,7 @@ const NavigationBar = () => {
       <Navbar expand="lg" className="n-wrapper my-3 mx-5">
         <Container fluid>
           <Navbar.Brand href="#home" className="n-logo">Joseph.<span>Code</span></Navbar.Brand>
-          <span>Toggler</span>
+          {/* <span>Toggler</span> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="n-links ms-auto mx-4">

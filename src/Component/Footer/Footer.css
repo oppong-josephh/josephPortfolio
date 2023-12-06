@@ -14,8 +14,9 @@
     flex-direction: column;
     width: 100%;
     margin-top: 10em;
-    gap: 4rem;
+    gap: 2rem;
     color: white;
+    text-align: center;
 }
 
 .footer-content span:nth-of-type(1) {
@@ -41,3 +42,32 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+  .footer-content {
+    margin-top: 5em; 
+  }
+
+  .footer-content span:nth-of-type(2) {
+    font-size: 1.1rem; 
+    margin-bottom: rem;
+    gap: 3rem;
+  }
+
+  .footer-content span:nth-of-type(1) {
+    font-size: 1.1rem;
+    margin-bottom: -3rem;
+  }
+  
+  .footer-icons > *{
+    gap: 0.5rem;
+    transform: scale(0.3);
+    margin-bottom: -3rem;
+}
+
+.footer > img{
+  width: 100%;
+  height: 15rem;
+}
+
+
+}
